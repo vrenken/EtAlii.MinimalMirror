@@ -1,6 +1,6 @@
 ﻿namespace EtAlii.Speculo;
 
-public partial class AppShell : Shell
+public partial class AppShell : MauiControls.Shell
 {
     public AppShell()
     {

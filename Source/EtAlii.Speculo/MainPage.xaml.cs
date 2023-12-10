@@ -1,6 +1,8 @@
-﻿namespace EtAlii.Speculo;
+﻿using Microsoft.Maui.Accessibility;
 
-public partial class MainPage : ContentPage
+namespace EtAlii.Speculo;
+
+public partial class MainPage : MauiControls.ContentPage
 {
     int count = 0;
 
