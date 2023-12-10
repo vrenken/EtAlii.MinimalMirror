@@ -1,5 +1,5 @@
 ﻿<maui:MauiWinUIApplication
-    x:Class="EtAlii.MiniMirror.WinUI.App"
+    x:Class="EtAlii.MiniMirror.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:maui="using:Microsoft.Maui"
