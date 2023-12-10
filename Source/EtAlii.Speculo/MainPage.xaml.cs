@@ -1,4 +1,4 @@
-﻿namespace EtAlii.MyMirror;
+﻿namespace EtAlii.Speculo;
 
 public partial class MainPage : ContentPage
 {

@@ -1,6 +1,6 @@
-﻿namespace EtAlii.MyMirror;
+﻿namespace EtAlii.Speculo;
 
-public partial class App : Application
+public partial class App 
 {
     public App()
     {

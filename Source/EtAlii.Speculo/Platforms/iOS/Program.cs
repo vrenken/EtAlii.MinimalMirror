@@ -1,7 +1,6 @@
-﻿using ObjCRuntime;
-using UIKit;
+﻿using UIKit;
 
-namespace EtAlii.MyMirror;
+namespace EtAlii.Speculo;
 
 public class Program
 {

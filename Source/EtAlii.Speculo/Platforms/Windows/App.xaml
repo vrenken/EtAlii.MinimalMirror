@@ -1,8 +1,8 @@
 ﻿<maui:MauiWinUIApplication
-    x:Class="EtAlii.MagicWindow.WinUI.App"
+    x:Class="EtAlii.Speculo.Windows.App"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:maui="using:Microsoft.Maui"
-    xmlns:local="using:EtAlii.MagicWindow.WinUI">
+    xmlns:local="using:EtAlii.Speculo.WinUI">
 
 </maui:MauiWinUIApplication>

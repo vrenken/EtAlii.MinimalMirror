@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EtAlii.MagicWindow", "EtAlii.MagicWindow\EtAlii.MagicWindow.csproj", "{2AF6A21B-A021-4C0C-A28E-0EF2044DA348}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EtAlii.Speculo", "EtAlii.Speculo\EtAlii.Speculo.csproj", "{4D1971C7-0091-4C04-A1D5-487EF416EA54}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2AF6A21B-A021-4C0C-A28E-0EF2044DA348}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2AF6A21B-A021-4C0C-A28E-0EF2044DA348}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2AF6A21B-A021-4C0C-A28E-0EF2044DA348}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2AF6A21B-A021-4C0C-A28E-0EF2044DA348}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D1971C7-0091-4C04-A1D5-487EF416EA54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D1971C7-0091-4C04-A1D5-487EF416EA54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D1971C7-0091-4C04-A1D5-487EF416EA54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D1971C7-0091-4C04-A1D5-487EF416EA54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace EtAlii.MyMirror;
+namespace EtAlii.Speculo;
 
 public static class MauiProgram
 {

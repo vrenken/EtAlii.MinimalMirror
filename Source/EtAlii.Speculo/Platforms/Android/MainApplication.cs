@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Runtime;
 
-namespace EtAlii.MyMirror;
+namespace EtAlii.Speculo;
 
 [Application]
 public class MainApplication : MauiApplication

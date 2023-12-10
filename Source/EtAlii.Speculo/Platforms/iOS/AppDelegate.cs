@@ -1,6 +1,6 @@
 ﻿using Foundation;
 
-namespace EtAlii.MyMirror;
+namespace EtAlii.Speculo;
 
 [Register("AppDelegate")]
 public class AppDelegate : MauiUIApplicationDelegate
