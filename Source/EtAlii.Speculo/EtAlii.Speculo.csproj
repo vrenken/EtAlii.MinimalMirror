@@ -70,6 +70,16 @@
       <Compile Update="MainPage2.cs">
         <SubType>Code</SubType>
       </Compile>
+      <Compile Update="HomeOverview.xaml.cs">
+        <DependentUpon>HomeOverview.xaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+      <MauiXaml Update="HomeOverview.xaml">
+        <SubType>Designer</SubType>
+      </MauiXaml>
     </ItemGroup>
 
 </Project>

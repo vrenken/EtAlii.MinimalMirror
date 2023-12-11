@@ -1,53 +1,77 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
-<VerticalStackLayout 
+<ContentView 
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:mim="clr-namespace:MauiIcons.Material;assembly=MauiIcons.Material"
     xmlns:misf="clr-namespace:MauiIcons.SegoeFluent;assembly=MauiIcons.SegoeFluent"
     xmlns:mif="clr-namespace:MauiIcons.Fluent;assembly=MauiIcons.Fluent"
     x:Class="EtAlii.Speculo.MainMenu">
-    
-    <Button
-        ImageSource="{misf:SegoeFluent Home}"
-        x:Name="Home"
-        Text="Home" 
-        SemanticProperties.Hint="Counts the number of times you click"
-        HorizontalOptions="Fill" />
 
-    <Button
-        ImageSource="{misf:SegoeFluent People}"
-        x:Name="FamilyButton"
-        Text="Family" 
-        SemanticProperties.Hint="Counts the number of times you click"
-        HorizontalOptions="Fill" />
+    <Grid>
+        <ImageButton 
+            x:Name="OpenMenuButton"
+            HorizontalOptions="End" 
+            VerticalOptions="Start" 
+            Source="{mif:Fluent MoreVertical48}"
+            Clicked="OnOpenMenu"/>
+        <Grid VerticalOptions="Center">
+            <Border
+                Margin="-5, -10, -5, -10"
+                x:Name="Panel" 
+                Style="{StaticResource PanelRight}">
+            </Border>
 
-    <Button
-        ImageSource="{mif:Fluent Temperature48}"
-        x:Name="ClimateButton"
-        Text="Climate" 
-        SemanticProperties.Hint="Counts the number of times you click"
-        HorizontalOptions="Fill" />
+            <VerticalStackLayout>
+                <Button
+                    Margin="10, 5, 5, 5"
+                    ImageSource="{misf:SegoeFluent Home}"
+                    x:Name="HomeButton"
+                    Pressed="OnButtonDown"
+                    Released="OnButtonUp"
+                    Text="Home" />
+            
+                <Button
+                    Margin="10, 5, 5, 5"
+                    ImageSource="{misf:SegoeFluent People}"
+                    x:Name="FamilyButton"
+                    Pressed="OnButtonDown"
+                    Released="OnButtonUp"
+                    Text="Family" />
+            
+                <Button
+                    Margin="10, 5, 5, 5"
+                    ImageSource="{mif:Fluent Temperature48}"
+                    x:Name="ClimateButton"
+                    Pressed="OnButtonDown"
+                    Released="OnButtonUp"
+                    Text="Climate" />
+            
+                <Button
+                    Margin="10, 5, 5, 5"
+                    ImageSource="{mim:Material ElectricBolt}"
+                    x:Name="EnergyButton"
+                    Pressed="OnButtonDown"
+                    Released="OnButtonUp"
+                    Text="Energy" />
+            
+                <Button
+                    Margin="10, 5, 5, 5"
+                    ImageSource="{mim:Material Lightbulb}"
+                    x:Name="InsightsButton"
+                    Pressed="OnButtonDown"
+                    Released="OnButtonUp"
+                    Text="Insights" />
+            
+                <Button
+                    Margin="10, 5, 5, 5"
+                    ImageSource="{mif:Fluent Book24}"
+                    x:Name="KnowledgeButton"
+                    Pressed="OnButtonDown"
+                    Released="OnButtonUp"
+                    Text="Knowledge" />
+            </VerticalStackLayout>
+        </Grid>
+    </Grid>
 
-    <Button
-        ImageSource="{mim:Material ElectricBolt}"
-        x:Name="EnergyButton"
-        Text="Energy" 
-        SemanticProperties.Hint="Counts the number of times you click"
-        HorizontalOptions="Fill" />
-
-    <Button
-        ImageSource="{mim:Material Lightbulb}"
-        x:Name="InsightsButton"
-        Text="Insights" 
-        SemanticProperties.Hint="Counts the number of times you click"
-        HorizontalOptions="Fill" />
-
-    <Button
-        ImageSource="{mif:Fluent Book24}"
-        x:Name="KnowledgeButton"
-        Text="Knowledge" 
-        SemanticProperties.Hint="Counts the number of times you click"
-        HorizontalOptions="Fill" />
-
-</VerticalStackLayout>
+</ContentView>

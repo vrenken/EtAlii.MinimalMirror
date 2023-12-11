@@ -1,6 +1,7 @@
 ﻿//using MauiReactor;
 
 using MauiIcons.Fluent;
+using MauiIcons.Material;
 using MauiIcons.SegoeFluent;
 using Microsoft.Extensions.Logging;
 using Microsoft.Maui.Controls.Hosting;
@@ -31,6 +32,7 @@ public static class MauiProgram
         var builder = MauiApp.CreateBuilder();
         builder
             .UseMauiApp<App>()
+            .UseMaterialMauiIcons()
             .UseFluentMauiIcons()
             .UseSegoeFluentMauiIcons()
             .ConfigureFonts(fonts =>
